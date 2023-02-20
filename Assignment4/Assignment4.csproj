@@ -1,0 +1,181 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\b1fh.png" />
+    <None Remove="Resources\b1fv.png" />
+    <None Remove="Resources\b1pb.png" />
+    <None Remove="Resources\b1pl.png" />
+    <None Remove="Resources\b1pr.png" />
+    <None Remove="Resources\b1pt.png" />
+    <None Remove="Resources\b2fh.png" />
+    <None Remove="Resources\b2fv.png" />
+    <None Remove="Resources\b2pb.png" />
+    <None Remove="Resources\b2pl.png" />
+    <None Remove="Resources\b2pr.png" />
+    <None Remove="Resources\b2pt.png" />
+    <None Remove="Resources\c1.png" />
+    <None Remove="Resources\c10.png" />
+    <None Remove="Resources\c11.png" />
+    <None Remove="Resources\c12.png" />
+    <None Remove="Resources\c13.png" />
+    <None Remove="Resources\c2.png" />
+    <None Remove="Resources\c3.png" />
+    <None Remove="Resources\c4.png" />
+    <None Remove="Resources\c5.png" />
+    <None Remove="Resources\c6.png" />
+    <None Remove="Resources\c7.png" />
+    <None Remove="Resources\c8.png" />
+    <None Remove="Resources\c9.png" />
+    <None Remove="Resources\close.png" />
+    <None Remove="Resources\d1.png" />
+    <None Remove="Resources\d10.png" />
+    <None Remove="Resources\d11.png" />
+    <None Remove="Resources\d12.png" />
+    <None Remove="Resources\d13.png" />
+    <None Remove="Resources\d2.png" />
+    <None Remove="Resources\d3.png" />
+    <None Remove="Resources\d4.png" />
+    <None Remove="Resources\d5.png" />
+    <None Remove="Resources\d6.png" />
+    <None Remove="Resources\d7.png" />
+    <None Remove="Resources\d8.png" />
+    <None Remove="Resources\d9.png" />
+    <None Remove="Resources\ec.png" />
+    <None Remove="Resources\expand.png" />
+    <None Remove="Resources\fullscreen.png" />
+    <None Remove="Resources\h1.png" />
+    <None Remove="Resources\h10.png" />
+    <None Remove="Resources\h11.png" />
+    <None Remove="Resources\h12.png" />
+    <None Remove="Resources\h13.png" />
+    <None Remove="Resources\h2.png" />
+    <None Remove="Resources\h3.png" />
+    <None Remove="Resources\h4.png" />
+    <None Remove="Resources\h5.png" />
+    <None Remove="Resources\h6.png" />
+    <None Remove="Resources\h7.png" />
+    <None Remove="Resources\h8.png" />
+    <None Remove="Resources\h9.png" />
+    <None Remove="Resources\index.html" />
+    <None Remove="Resources\jb.png" />
+    <None Remove="Resources\jr.png" />
+    <None Remove="Resources\minimize.png" />
+    <None Remove="Resources\pil.png" />
+    <None Remove="Resources\s1.png" />
+    <None Remove="Resources\s10.png" />
+    <None Remove="Resources\s11.png" />
+    <None Remove="Resources\s12.png" />
+    <None Remove="Resources\s13.png" />
+    <None Remove="Resources\s2.png" />
+    <None Remove="Resources\s3.png" />
+    <None Remove="Resources\s4.png" />
+    <None Remove="Resources\s5.png" />
+    <None Remove="Resources\s6.png" />
+    <None Remove="Resources\s7.png" />
+    <None Remove="Resources\s8.png" />
+    <None Remove="Resources\s9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elsa.Persistence.EntityFramework.SqlServer" Version="2.9.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\b1fh.png" />
+    <Resource Include="Resources\b1fv.png" />
+    <Resource Include="Resources\b1pb.png" />
+    <Resource Include="Resources\b1pl.png" />
+    <Resource Include="Resources\b1pr.png" />
+    <Resource Include="Resources\b1pt.png" />
+    <Resource Include="Resources\b2fh.png" />
+    <Resource Include="Resources\b2fv.png" />
+    <Resource Include="Resources\b2pb.png" />
+    <Resource Include="Resources\b2pl.png" />
+    <Resource Include="Resources\b2pr.png" />
+    <Resource Include="Resources\b2pt.png" />
+    <Resource Include="Resources\c1.png" />
+    <Resource Include="Resources\c10.png" />
+    <Resource Include="Resources\c11.png" />
+    <Resource Include="Resources\c12.png" />
+    <Resource Include="Resources\c13.png" />
+    <Resource Include="Resources\c2.png" />
+    <Resource Include="Resources\c3.png" />
+    <Resource Include="Resources\c4.png" />
+    <Resource Include="Resources\c5.png" />
+    <Resource Include="Resources\c6.png" />
+    <Resource Include="Resources\c7.png" />
+    <Resource Include="Resources\c8.png" />
+    <Resource Include="Resources\c9.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\d1.png" />
+    <Resource Include="Resources\d10.png" />
+    <Resource Include="Resources\d11.png" />
+    <Resource Include="Resources\d12.png" />
+    <Resource Include="Resources\d13.png" />
+    <Resource Include="Resources\d2.png" />
+    <Resource Include="Resources\d3.png" />
+    <Resource Include="Resources\d4.png" />
+    <Resource Include="Resources\d5.png" />
+    <Resource Include="Resources\d6.png" />
+    <Resource Include="Resources\d7.png" />
+    <Resource Include="Resources\d8.png" />
+    <Resource Include="Resources\d9.png" />
+    <Resource Include="Resources\ec.png" />
+    <Resource Include="Resources\expand.png" />
+    <Resource Include="Resources\fullscreen.png" />
+    <Resource Include="Resources\h1.png" />
+    <Resource Include="Resources\h10.png" />
+    <Resource Include="Resources\h11.png" />
+    <Resource Include="Resources\h12.png" />
+    <Resource Include="Resources\h13.png" />
+    <Resource Include="Resources\h2.png" />
+    <Resource Include="Resources\h3.png" />
+    <Resource Include="Resources\h4.png" />
+    <Resource Include="Resources\h5.png" />
+    <Resource Include="Resources\h6.png" />
+    <Resource Include="Resources\h7.png" />
+    <Resource Include="Resources\h8.png" />
+    <Resource Include="Resources\h9.png" />
+    <Resource Include="Resources\index.html" />
+    <Resource Include="Resources\jb.png" />
+    <Resource Include="Resources\jr.png" />
+    <Resource Include="Resources\minimize.png" />
+    <Resource Include="Resources\s1.png" />
+    <Resource Include="Resources\s10.png" />
+    <Resource Include="Resources\s11.png" />
+    <Resource Include="Resources\s12.png" />
+    <Resource Include="Resources\s13.png" />
+    <Resource Include="Resources\s2.png" />
+    <Resource Include="Resources\s3.png" />
+    <Resource Include="Resources\s4.png" />
+    <Resource Include="Resources\s5.png" />
+    <Resource Include="Resources\s6.png" />
+    <Resource Include="Resources\s7.png" />
+    <Resource Include="Resources\s8.png" />
+    <Resource Include="Resources\s9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlackJackLogicLibBLL\BlackJackLogicBLL.csproj" />
+  </ItemGroup>
+
+</Project>
